@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung – Inflato</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5b5b5b;
+    --accent: #0f766e;
+    --rule: #e5e5e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --fg: #f0f0f0;
+      --muted: #a8a8a8;
+      --accent: #2dd4bf;
+      --rule: #2a2a2a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 4px;
+  }
+  .stand {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 1.1rem;
+    color: var(--accent);
+    margin-top: 40px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  p { margin: 0 0 12px; white-space: pre-line; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Datenschutzerklärung</h1>
+  <p class="stand">Inflato · Stand: Juli 2026</p>
+
+  <h2>1. Verantwortlicher</h2>
+  <p>Verantwortlich für die Datenverarbeitung in dieser App ist:</p>
+  <p>Daniel Spatz<br>
+  Schleißheimer Straße 171<br>
+  80797 München<br>
+  E-Mail: <a href="mailto:daniel-spatz@gmx.de">daniel-spatz@gmx.de</a></p>
+
+  <h2>2. Welche Daten werden erfasst?</h2>
+  <p><strong>Lokal auf deinem Gerät gespeicherte Daten:</strong><br>
+  Alle Produkte und Preiseinträge, die du in der App erfasst, werden ausschließlich lokal auf deinem Gerät gespeichert (JSON-Datei im App-Verzeichnis).</p>
+  <p><strong>Bei Nutzung eines Kontos (optional):</strong><br>
+  Wenn du ein Konto erstellst, werden zusätzlich folgende Daten verarbeitet:</p>
+  <ul>
+    <li>E-Mail-Adresse (für Login und Kontoverwaltung)</li>
+    <li>Deine eingetragenen Produkte und Preisdaten (für die Synchronisierung zwischen Geräten)</li>
+    <li>Geräte-Token (für Push-Benachrichtigungen, sofern aktiviert)</li>
+  </ul>
+  <p><strong>Produktsuche (optional):</strong><br>
+  Wenn du die Barcode-Suche verwendest, wird eine Anfrage an die Open Food Facts API (openfoodfacts.org) gesendet. Open Food Facts ist eine gemeinnützige, öffentliche Datenbank. Es werden dabei keine personenbezogenen Daten übermittelt.</p>
+
+  <h2>3. Rechtsgrundlagen</h2>
+  <p>Die Verarbeitung deiner Daten erfolgt auf Basis von:</p>
+  <ul>
+    <li>Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) – bei der Kontoerstellung</li>
+    <li>Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung) – für die Bereitstellung der App-Funktionen</li>
+    <li>Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse) – für die Verbesserung der App</li>
+  </ul>
+
+  <h2>4. Dienstleister (Auftragsverarbeitung)</h2>
+  <p><strong>Supabase (nur bei Kontonutzung):</strong><br>
+  Für die Konto-Authentifizierung und Datensynchronisierung nutzen wir Supabase (Supabase Inc., San Francisco, USA). Die Datenübertragung in die USA erfolgt auf Basis der EU-Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO). Weitere Informationen: <a href="https://supabase.com/privacy">supabase.com/privacy</a></p>
+  <p>Alle anderen Datenverarbeitungen finden ausschließlich lokal auf deinem Gerät statt.</p>
+
+  <h2>5. Speicherdauer</h2>
+  <p>Lokale Daten werden so lange gespeichert, bis du sie manuell in der App löschst oder die App deinstallierst.</p>
+  <p>Konto-Daten bei Supabase werden gespeichert, bis du deinen Account über Einstellungen → Account &amp; Daten löschen entfernst. Danach werden alle Daten unwiderruflich gelöscht.</p>
+
+  <h2>6. Deine Rechte</h2>
+  <p>Gemäß DSGVO hast du folgende Rechte:</p>
+  <ul>
+    <li><strong>Auskunft</strong> (Art. 15): Auskunft über gespeicherte Daten</li>
+    <li><strong>Berichtigung</strong> (Art. 16): Korrektur unrichtiger Daten</li>
+    <li><strong>Löschung</strong> (Art. 17): Löschung deiner Daten – direkt in der App unter Einstellungen → Account &amp; Daten löschen</li>
+    <li><strong>Einschränkung</strong> (Art. 18): Einschränkung der Verarbeitung</li>
+    <li><strong>Widerspruch</strong> (Art. 21): Widerspruch gegen die Verarbeitung</li>
+    <li><strong>Beschwerderecht</strong>: Bei der zuständigen Datenschutzbehörde</li>
+  </ul>
+  <p>Für Anfragen wende dich an: <a href="mailto:support@inflato.app">support@inflato.app</a></p>
+
+  <h2>7. Keine Weitergabe an Dritte</h2>
+  <p>Deine Daten werden nicht an Dritte verkauft oder zu Werbezwecken genutzt. Es findet kein Tracking oder verhaltensbasierte Werbung statt.</p>
+
+  <h2>8. Änderungen</h2>
+  <p>Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen. Die aktuelle Version ist stets in der App unter Einstellungen → Datenschutzerklärung einsehbar.</p>
+</main>
+</body>
+</html>
