@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support – Inflato</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5b5b5b;
+    --accent: #0f766e;
+    --rule: #e5e5e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --fg: #f0f0f0;
+      --muted: #a8a8a8;
+      --accent: #2dd4bf;
+      --rule: #2a2a2a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 4px;
+  }
+  .stand {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 1.1rem;
+    color: var(--accent);
+    margin-top: 40px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  p { margin: 0 0 12px; white-space: pre-line; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { font-weight: 600; }
+  .button {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: var(--accent);
+    color: #ffffff;
+  }
+  .button:hover { text-decoration: none; opacity: 0.9; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Support</h1>
+  <p class="stand">Inflato</p>
+
+  <p>Fragen, Feedback oder ein Problem mit der App? Schreib uns einfach eine E-Mail –
+  wir antworten in der Regel innerhalb weniger Tage.</p>
+
+  <p><a class="button" href="mailto:inflato@gmx.de">E-Mail an inflato@gmx.de</a></p>
+
+  <h2>Häufige Fragen</h2>
+
+  <p><strong>Wie lösche ich mein Konto?</strong><br>
+  In der App unter Einstellungen → Account &amp; Daten → Account löschen. Dabei werden
+  alle in der Cloud gespeicherten Daten unwiderruflich entfernt.</p>
+
+  <p><strong>Wie funktioniert die Synchronisierung zwischen Geräten?</strong><br>
+  Sobald du ein Konto anlegst, werden deine Produkte und Preise automatisch mit deinem
+  Konto abgeglichen und stehen auf allen Geräten zur Verfügung, auf denen du angemeldet bist.</p>
+
+  <p><strong>Ich habe einen Fehler gefunden oder eine Funktion vermisst.</strong><br>
+  Schreib uns gerne per E-Mail – Feedback und Fehlerberichte helfen uns, Inflato zu verbessern.</p>
+
+  <h2>Rechtliches</h2>
+  <p>Die Datenschutzerklärung findest du <a href="/inflato-legal/">hier</a>.</p>
+</main>
+</body>
+</html>
